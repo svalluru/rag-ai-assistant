@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: camel-cm
+data:
+  camel.component.kafka.brokers : my-cluster-kafka-bootstrap:9092
+  pdf.urls : https://access.redhat.com/documentation/en-us/red_hat_openshift_ai_self-managed/2.9/pdf/working_on_data_science_projects/red_hat_openshift_ai_self-managed-2.9-working_on_data_science_projects-en-us.pdf,https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.0/pdf/getting_started_with_red_hat_build_of_apache_camel_for_quarkus/red_hat_build_of_apache_camel-4.0-getting_started_with_red_hat_build_of_apache_camel_for_quarkus-en-us.pdf
