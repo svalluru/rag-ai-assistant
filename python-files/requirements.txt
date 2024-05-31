@@ -1,0 +1,13 @@
+transformers
+sentence-transformers==2.7.0
+langchain==0.1.19
+langchain-community==0.0.38
+langchain-core==0.1.52
+langchain-text-splitters==0.0.1
+langchainhub==0.1.15
+redis==5.0.4
+openllm==0.4.44
+openllm-client==0.4.44
+openllm-core==0.4.44
+kafka-python==2.0.2
+kafka-python-ng==2.2.2
